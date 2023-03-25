@@ -10,7 +10,7 @@ sound.onload = () => {
   console.log("loaded");
 };
 
-button.onclick = () => {
+button.ontouchstart = () => {
   button.classList.add("px-8");
   button.classList.add("py-12");
   button.classList.add("text-2xl");
