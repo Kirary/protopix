@@ -29,8 +29,12 @@
   <p>Hello world! This is HTML5 Boilerplate.</p>
   <div class="square">red</div>
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="js/vendor/browser.min.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
+  <script>
+    vkBridge.send('VKWebAppInit');
+  </script>
 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script>
