@@ -1,1 +1,0 @@
-{"version":3,"sources":["css/test-style.css"],"names":[],"mappings":"AAAA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA","file":"test-style.c4d8b7d3.css","sourceRoot":"..","sourcesContent":[".square {\n  background: green;\n  width: 50px;\n  height: 50px;\n  margin: 50px auto;\n  color: white;\n  text-transform: uppercase;\n  text-align: center;\n  padding: 8px ;\n}"]}
