@@ -1,0 +1,1 @@
+vkBridge.send("VKWebAppInit");
