@@ -1,3 +1,12 @@
 import bridge from "@vkontakte/vk-bridge";
 
-bridge.send("VKWebAppInit", {});
+console.log("start");
+bridge
+  .send("VKWebAppInit", {})
+  .then((res) => {
+    console.log("VKWebAppInit:", res);
+  })
+  .catch((reason) => {
+    console.log("VKWebAppInitCatch", reason);
+  });
+console.log("after bridge");
