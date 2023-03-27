@@ -5,15 +5,14 @@ const button = document.getElementById("yellow-btn");
 const sound = new Howl({
   src: [require("../sounds/pew.mp3")],
 });
-
-sound.onload = () => {
-  console.log("loaded");
-};
+sound.stereo(Math.random() * 2 - 1);
 
 button.onclick = () => {
   button.classList.add("px-8");
   button.classList.add("py-12");
   button.classList.add("text-2xl");
+
+  sound.stereo(Math.random() * 2 - 1);
 
   sound.play();
 
